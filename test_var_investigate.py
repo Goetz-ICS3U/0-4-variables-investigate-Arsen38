@@ -46,6 +46,7 @@ def test_var_count():
     assert len(found) == 14, f"Expected 14 variables (11 original + 3 new), but found {len(found)} variables"
 
 
+
 def test_story_changed(capsys):
     """Test that student changed at least one variable value"""
     try:
